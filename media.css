@@ -1,0 +1,255 @@
+@media (max-width:426px) {
+    .content__top__textblock h1 {
+
+        padding: 0 20px
+    }
+
+    .content__top__textblock p {
+
+        padding: 0 20px;
+    }
+
+    .content__top__textblock_btn {
+        margin: 0 20px;
+    }
+
+    .registerzone__right_form {
+        padding: 32px 15px;
+    }
+}
+
+@media (max-width:769px) {
+
+
+    .main_header {
+        background: #172755;
+        -webkit-box-shadow: 0px 4px 4px 0px #12214D;
+        box-shadow: 0px 4px 4px 0px #12214D;
+        padding: 20px;
+    }
+
+    .background__top {
+        background-size: cover;
+    }
+
+    .nav_header {
+        display: none;
+    }
+
+    .menusvg {
+        display: block;
+    }
+
+    .menusvg:hover~.menu {
+        display: block;
+    }
+
+    .signup_header {
+        display: none;
+    }
+
+    .content__top {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .content__top__textblock {
+        gap: 26px;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        max-width: -webkit-min-content;
+        max-width: -moz-min-content;
+        max-width: min-content;
+    }
+
+    .content__top__textblock h1 {
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 120%;
+        margin-bottom: 15px;
+    }
+
+    .content__top__textblock p {
+        font-size: 18px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .content__top__textblock::before {
+        content: url('img/Rectangle\ 9mediatopcontent.png');
+        margin: auto;
+    }
+
+    .content__top__textblock_btn {
+        text-align: center;
+    }
+
+    .content__top_img {
+        display: none;
+    }
+
+    .features__heading {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .features__ph {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        padding: 0 20px;
+    }
+
+    .features {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .feature_item {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        gap: 28px;
+    }
+
+    .feature_item p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        text-align: start;
+    }
+
+    .feature_item h2 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+        text-align: start;
+    }
+
+    .feature_item svg {
+        min-width: 60px;
+        min-height: 60px;
+    }
+
+
+    .advantages__block {
+        margin-top: 70px;
+    }
+
+    .advantages_item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .advantages_item:nth-child(2n) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+    }
+
+    .advantages_item img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .advantages_item__text h2 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0 20px;
+    }
+
+    .advantages_item__text p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        padding: 0 20px;
+    }
+
+    .buyzone_title {
+        display: block;
+        max-width: 335px;
+        padding: 0 20px;
+
+        margin: 0 auto;
+    }
+
+    .buyzone_title h2 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: normal;
+        text-align: start;
+    }
+
+    .buyzone_title p {
+        text-align: start;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    .buyzone_cards {
+        gap: 20px;
+    }
+
+    .buyzone_cards__item {
+        opacity: 1;
+        background: #FFF;
+        width: 280px;
+        height: 358px;
+        -webkit-box-shadow: 0px 18px 50px -15px #060F28;
+        box-shadow: 0px 18px 50px -15px #060F28;
+        color: #172755;
+    }
+
+    .card__item_buybtn {
+        background: #EF2A82;
+        border: none;
+    }
+
+    .buyzone_bg {
+        overflow: hidden;
+        background-size: cover;
+    }
+
+    .registerzone__left_content {
+        display: none;
+    }
+
+    .registerzone__right_background {
+        width: auto;
+        height: auto;
+        background: none;
+    }
+
+    .registerzone__right_form {
+        width: 337px;
+        position: relative;
+    }
+
+    .mainfooter {
+        margin-top: 35px;
+        padding: 0 20px;
+    }
+
+    .footer__nav {
+        display: none;
+    }
+}
