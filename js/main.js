@@ -3,7 +3,6 @@ const inputPasswordEl = document.querySelector('input.passw');
 const inputReTypePasswordEl = document.querySelector('input.retype_passw');
 const formEl = document.querySelector('form');
 
-// inputReTypePasswordEl.style.border = '2px solid red';
 inputReTypePasswordEl.addEventListener('input', () => {
     if (inputReTypePasswordEl.value === inputPasswordEl.value) {
         inputReTypePasswordEl.style.border = '2px solid green'
